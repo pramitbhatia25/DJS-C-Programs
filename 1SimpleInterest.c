@@ -15,6 +15,6 @@ int main()
 
     double simpleinterest = (principal*rateofinterest*noofyears)/100;
 
-    printf("The Simple Interest Is: %ld", simpleinterest);
+    printf("The Simple Interest Is: %.2lf", simpleinterest);
     
 }

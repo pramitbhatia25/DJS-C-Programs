@@ -9,13 +9,13 @@ int main()
 {
     double a, b;
     char c;
-    printf("Enter the values a, b : \n")
+    printf("Enter the values a, b : \n");
     printf("a = ");
     scanf("%lf", &a);
     printf("\nb = ");
     scanf("%lf", &b);
     printf("\nEnter operation To be performed: (+ - * /)");
-    scanf("%c", &c);
+    scanf("\n%c", &c);
     double ans = 0;
     char* message = "\nThe answer is: ";
     switch(c)

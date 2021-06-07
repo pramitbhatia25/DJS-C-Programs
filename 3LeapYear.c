@@ -1,20 +1,30 @@
 #include <stdio.h>
-//To calculate simple interest taking principal, rate of interest and number of years as input from user
+
+//Write a program to check if the year entered is leap year or not
 
 int main()
 {
-    double principal, rateofinterest, noofyears;
-    printf("Enter Principal: ");
-    scanf("%lf", &principal);
-    
-    printf("\nEnter Rate Of Interest: ");
-    scanf("%lf", &rateofinterest);
-    
-    printf("\nEnter No Of Years: ");
-    scanf("%lf", &noofyears);
+    int year;
+    printf("Enter Enter Year: ");
+    scanf("%d", &year);
 
-    double simpleinterest = (principal*rateofinterest*noofyears)/100;
-
-    printf("The Simple Interest Is: %ld", simpleinterest);
-    
+    if(year % 100 == 0)
+    {
+        if(year % 400 == 0)
+        {
+            printf("%d IS a leap year.", year);
+        }
+        else
+        {
+            printf("%d IS NOT a leap year.", year);
+        }
+    }
+    else if(year % 4 == 0)
+    {
+        printf("%d IS a leap year.", year);
+    }
+    else
+    {
+        printf("%d IS NOT a leap year.", year);
+    }
 }
