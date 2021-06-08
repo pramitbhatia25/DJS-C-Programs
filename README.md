@@ -19,4 +19,21 @@ on.
   ABCBA 
  ABCDCBA 
 ABCDEDCBA 
-
+</pre>
+9. Write a program to check if the entered number is Armstrong or not.
+10. Write a program to display first n elements of Fibonacci series (using 'for')
+11. Write a program to find nCr using function.
+12. Write a program which will accept n and r and calculate nCr=n!/r!(n-r)! using recursive functions.
+13. Write a program to initialize an automatic and static variable and increment it in the function. Call this 
+function thrice and print the value of the variable every time after incrementing.
+14. Write a program to implement bubble sorting algorithm for sorting numbers in ascending order.
+15. Write a program to check whether string is palindrome or not.
+16. Write a program to count blank spaces, digits, vowels and consonants in the string.
+17. Write a program to multiply two matrices using a function.
+18. Define a structure called cricket that will describe the following information –player name, country 
+name best score, batting average. Develop a program that will store information of 25 cricket players 
+around the world using this structure. Also display names of these cricketers in descending order with 
+respect to their batting average.
+19. Write a program to swap two numbers using a function. Pass the values to be swapped to this function 
+using call-by-value method and call-by-reference method.
+20. Write a program to accept a set of 10 numbers and print the number using pointer
