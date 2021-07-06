@@ -18,4 +18,5 @@ int main()
     {
         ans += (double) i / (double) factorial(i);
     }
+    printf("Answer: %lf", ans); 
 }
