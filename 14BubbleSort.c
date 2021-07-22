@@ -7,9 +7,9 @@
 int main()
 {
     int n;
-    long int a[n];
     printf("Enter No of Integers In Array: ");
     scanf("%ld", &n);
+    long int a[n];
     for(int i = 0; i < n; i++)
     {
        printf("\nEnter element %d: ", i);
